@@ -7,6 +7,10 @@ body {
     height: 100vh;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .container-fluid {
     height: 100%;
     width: 100%;
