@@ -6,17 +6,29 @@
 }
 
 body {
-    height: 100vh;
-    /*color: white;*/
-    /*!*background-position: center top;*!*/
-    /*background-repeat: no-repeat;*/
+    color: white;
+    /*background-position: center top;*/
+    background-repeat: no-repeat;
 }
 
-/*.image {*/
-    /*height: 300px;*/
-    /*width: 100%;*/
+body {
+    background-image: url("./images/coffee-img.jpeg");
+    background-size: cover;
+}
 
-/*}*/
+.image {
+    height: 300px;
+    width: 100%;
+
+}
+
+.icon-bar{
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+    text-align: center;
+
+
+}
 
 /*.div.row.content-row {*/
     /*position: absolute;*/
@@ -42,3 +54,4 @@ ul {
     height: calc(12.5% - .7em);
 
 }
+
