@@ -1,18 +1,36 @@
 * {
     margin: 0;
     padding: 0;
+    z-index: auto;
+
 }
 
 body {
     height: 100vh;
+    color: white;
+    /*background-position: center top;*/
+    background-repeat: no-repeat;
 }
+
+.image {
+    height: 300px;
+    width: 100%;
+
+}
+
+.div.row.content-row {
+    position: absolute;
+
+}
+
 
 ul {
     list-style-type: none;
+
 }
 
 .container-fluid {
-    height: 100%;
+    height: 50%;
     width: 100%;
 }
 
@@ -22,4 +40,5 @@ ul {
 
 .list-row {
     height: calc(12.5% - .7em);
+
 }
