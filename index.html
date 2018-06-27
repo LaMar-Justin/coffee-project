@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="image">
-    <img src="images/pexels-photo-434213%20(1).jpeg">
+    <!--<img src="images/pexels-photo-434213%20(1).jpeg">-->
     </div>
 <div class="container-fluid py-2 px-5">
     <div class="row">
@@ -37,14 +37,14 @@
                 <div class="form-group">
                     <div class="row">
                         <div class="col-12">
-                            <label class="font-weight-bold text-bottom m-0" for="roastFilter">
+                            <label class="font-weight-bold text-bottom m-0" for="roastSelection">
                                 Roast
                             </label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <select class="form-control" id="roastFilter" name="roastFilter">
+                            <select class="form-control" id="roastSelection" name="roastSelection">
                                 <option value="all">All</option>
                                 <option value="light">Light</option>
                                 <option value="medium">Medium</option>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12">
-                            <button class="btn-lg btn-block bg-success" type="submit">Submit</button>
+                            <button id="submit" class="btn-lg btn-block bg-success" type="submit">Submit</button>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,6 @@
                     <div class="row">
                         <div class="col-12">
                             <select class="form-control" id="roastAdd" name="roastAdd">
-                                <option value="all">All</option>
                                 <option value="light">Light</option>
                                 <option value="medium">Medium</option>
                                 <option value="dark">Dark</option>

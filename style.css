@@ -1,27 +1,27 @@
 * {
     margin: 0;
     padding: 0;
-    z-index: auto;
+    /*z-index: auto;*/
 
 }
 
 body {
     height: 100vh;
-    color: white;
-    /*background-position: center top;*/
-    background-repeat: no-repeat;
+    /*color: white;*/
+    /*!*background-position: center top;*!*/
+    /*background-repeat: no-repeat;*/
 }
 
-.image {
-    height: 300px;
-    width: 100%;
+/*.image {*/
+    /*height: 300px;*/
+    /*width: 100%;*/
 
-}
+/*}*/
 
-.div.row.content-row {
-    position: absolute;
+/*.div.row.content-row {*/
+    /*position: absolute;*/
 
-}
+/*}*/
 
 
 ul {
